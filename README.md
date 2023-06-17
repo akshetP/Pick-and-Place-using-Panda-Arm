@@ -45,4 +45,4 @@ To start one of the 3 task, call the service using `/task 1`, `/task 2` or `/tas
 We each contributed equally to the project (33.33% each). We followed a workflow that involved solving Task 1 and Task 2 independently, discussing our implementations, and working together to complete Task 3. We tested the code for bugs and edge cases, and we discussed our findings and optimized the code as needed.
 
 ## License 
-MIT
+[MIT](LICENSE)
