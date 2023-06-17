@@ -1,0 +1,23 @@
+<launch>
+
+	<!-- we will launch with a delay to allow gazebo to load, feel free to edit -->
+	<arg name="launch_delay" value="5.0"/>
+
+	<!-- load panda model and gazebo parameters -->
+	<include file="$(find panda_description)/launch/description.launch"/>
+
+	<!-- start the coursework world spawner with a delay -->
+	<arg name="models_dir" value="$(find cw3_world_spawner)/models/"/>
+	<include file="$(find cw3_world_spawner)/launch/world_spawner.launch">
+		<arg name="launch_delay" value="$(arg launch_delay)"/>
+		<arg name="models_dir" value="$(arg models_dir)"/>
+	</include>
+	
+	<!-- launch the cw solving node, change pkg to your team name here! -->
+  <node pkg="cw3_team_1"
+        name="cw3_solution_node"
+        type="cw3_solution_node"
+        output="screen"
+  />
+  
+</launch>
