@@ -1,5 +1,5 @@
 # Pick and Place using Panda Arm (Team Project)
-This project is a graded part of the module 'Robotic Sensing, Manipulation and Interaction'. It is a team project done by 3 students. The goal of this project is to implement a pick and place task using Panda Arm. The task is divided into 3 parts:
+This project is a graded part of the module 'Robotic Sensing, Manipulation and Interaction' COMP0129 at [UCL London](https://www.ucl.ac.uk/). It is a team project done by 3 students. The goal of this project is to implement a pick and place task using Panda Arm. The task is divided into 3 parts:
 * MoveIt! - Pick and Place at given positions
 * Shape detection
 * Planning and Execution
